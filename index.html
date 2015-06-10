@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/firebase.js"></script>
+        <script src="/js/script.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <img class="img-responsive center-block" src="/img/boo-blue.png" />
+
+                <h1>So long!</h1>
+
+                <p>Babelboo os da las gracias por el apoyo que habéis demostrado durante todo este tiempo.</p>
+
+                <p>¡Pero no os penséis que nos hemos rendido! Si quieres que te avisemos cuando tengamos listo nuestro próximo método <strong>revolucionario</strong> para aprender idiomas, déjanos tu dirección de correo:</p>
+
+                <form id="signupform">
+                    <div class="input-group">
+                        <input class="form-control" type="email" autofocus="autofocus" placeholder="tu dirección de correo electrónico" id="email">
+                        <span class="input-group-btn">
+                            <input class="btn btn-default" type="submit" value="Enviar">
+                        </span>
+                    </div>
+                </form>
+
+                <div class="alert alert-success success" role="alert" style="display: none">Thanks!</div>
+                <div class="alert alert-info waiting" role="alert" style="display: none">Enviando email. Si tarda demasiado inténtalo de nuevo.</div>
+                <div class="alert alert-warning error" role="alert" style="display: none">Error enviando email. Inténtalo de nuevo.</div>
+            </div>
+        </div>
+    </body>
+</html>
